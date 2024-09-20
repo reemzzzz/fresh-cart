@@ -54,7 +54,7 @@ const route =  createBrowserRouter([
     {path: "cart" , element: <ProtectedRoute><Cart /></ProtectedRoute>},
     {path: "productDetails/:id" , element: <ProtectedRoute><ProductDetails /></ProtectedRoute>},
     {path: "categories" , element: <ProtectedRoute><Categories /></ProtectedRoute>},
-    {path: "login" , element: <Login />},
+    {path: "/e-commerce/login" , element: <Login />},
     {path: "forgot-password" , element: <ForgotPassword />},
     {path: "verify-code" , element: <VerifyCode />},
     {path: "reset-password" , element: <ResetPassword />},
