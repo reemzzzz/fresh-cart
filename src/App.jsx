@@ -43,7 +43,7 @@ import ResetPassword from './Components/resetPassword/resetPassword.jsx';
 
 
 const route =  createBrowserRouter([
-  {path: "", element: <LayOut /> , children: [
+  {path: "/e-commerce/", element: <LayOut /> , children: [
     {path: "products" , element: <ProtectedRoute><Products /></ProtectedRoute>},
     {index: true , element: <ProtectedRoute><Home /></ProtectedRoute>},
     {path: "about" , element: <ProtectedRoute><About /></ProtectedRoute>},
