@@ -12,7 +12,7 @@ import Footer from './Components/Footer/Footer.jsx';
 import Register from './Components/Register/Register.jsx';
 import LayOut from './Components/LayOut/LayOut.jsx';
 import NotFound from './Components/NotFound/NotFound.jsx';
-import CounterContextProvider from './Context/counterContext.jsx';
+import CounterContextProvider from './Context/CounterContext.jsx';
 import UserContextProvider, { UserContext } from './Context/UserContext.jsx';
 import ProtectedRoute from './Components/ProtectedRoute/ProtectedRoute.jsx';
 import ProductDetails from './Components/ProductDetails/ProductDetails.jsx';
