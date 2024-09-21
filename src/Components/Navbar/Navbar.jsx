@@ -8,7 +8,7 @@ import { Link, useNavigate } from 'react-router-dom';
 
 import { MdDarkMode } from "react-icons/md";
 import { MdOutlineDarkMode } from "react-icons/md";
-import { CounterContext } from '../../Context/counterContext';
+import { CounterContext } from '../../Context/CounterContext';
 import { UserContext } from '../../Context/UserContext';
 import { CartContext } from '../../Context/CartContext';
 
